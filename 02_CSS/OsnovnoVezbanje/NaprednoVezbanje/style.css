@@ -1,0 +1,79 @@
+h3, h4 {
+    color: orange;
+}
+
+
+/* kada vise elemenata imaju isto svojstvo */
+
+.desno_poravnjanje {
+    text-align: right;
+}
+
+.crveni_tekst {
+    color: red;
+}
+
+.drugi {
+    background-color: yellow;
+}
+
+#treci {
+    background-color: green;
+}
+
+/* prioritet selektora */
+
+li {
+    color: lightsalmon;
+}
+
+.stavka {
+    color: blue;
+}
+
+#prva_stavka {
+    color: orange;
+}
+
+
+#cetvrta_stavka {
+    color: brown !important;
+}
+
+div p {
+    color: blueviolet;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+} 
+
+a:visited {
+    color: blue; 
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* pseudo selektori - svaki prvi potomak koji je tipa paragraf */
+
+p:first-child {
+    font-weight: bolder;
+}
+/* svaki drugi item boldovan */
+li:nth-child(2n){
+    font-weight: 900;
+}
+
+/* svaki treci je precrtan */
+li:nth-child(3){
+    text-decoration: line-through;
+}
+
+
+/* moze posluziti za selektovanje odredjene reci ili dela teksta i stilizovanje */
+span {
+    font-weight: 900;
+}
