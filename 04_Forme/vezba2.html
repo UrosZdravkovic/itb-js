@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vezba2.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Form Validation</legend>
+            <table>
+                <tr>
+                    <td class="label-cell"><label for="">Name:</label></td>
+                    <td><input type="text" placeholder="John"></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">Prezime:</label></td>
+                    <td><input type="text" placeholder="Doe"></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">Password:</label></td>
+                    <td><input type="password" placeholder="********"></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">Re-type password:</label></td>
+                    <td><input type="password" placeholder="********"></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">Gender:</label></td>
+                    <td>
+                        <input type="radio" value="male" name="gender">Male
+                        <input type="radio" value="female" name="gender">Female
+                        <input type="radio" value="other" name="gender">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">Programming skills:</label></td>
+                    <td>
+                        <input type="checkbox" name="programi" value="java">Java
+                        <input type="checkbox"name="programi" value="android">Android
+                        <input type="checkbox"name="programi" value="ruby">Ruby
+                        <input type="checkbox"name="programi" value=".net">.Net
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="">College:</label></td>
+                    <td>
+                        <select id="collegeSelect" name="college">
+                            <option value="" selected hidden>Select college</option>
+                                <option value="KMF">KMF</option>
+                                <option value="RMF">RMF</option>
+                                <option value="TMF">TMF</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div class="form-button">
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

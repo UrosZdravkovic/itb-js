@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forme</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Osnovne informacije</legend>
+                <div class="ime_input">
+                    <label for="">Ime:</label>
+                    <input type="text">
+                </div>
+                <div class="prezime_input">
+                    <label for="">Prezime:</label>
+                    <input type="text" placeholder="Zdravkovic">
+                </div>
+
+                <div class="neki_input">
+                    <label for="">Neka informacija:</label>
+                    <input type="text" value="Kurs" maxlength="10">
+                </div>
+
+                <div class="neki_input">
+                    <label for="">Godine:</label>
+                    <input type="number" min="18" step="0.5">
+                </div>
+
+                <div class="neki_input">
+                    <label for="">Password:</label>
+                    <input type="password" >
+                </div>
+        </fieldset>
+           
+
+            
+        <fieldset>
+            <legend>Dodatne Informacije</legend>
+
+                <div class="neki_input">
+                    <label for="">Odaberite kurs:</label>
+                    <input type="radio"name= "kurs">JS
+                    <input type="radio"name= "kurs">PHP
+                    <input type="radio"name= "kurs">QA
+
+                </div>   
+
+                <div class="neki_input">
+                    <label for="">Znanje:</label>
+                    <input type="checkbox">
+                </div>  
+        </fieldset>
+    </form>
+</body>
+</html>
