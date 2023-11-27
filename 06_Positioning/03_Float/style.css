@@ -1,0 +1,15 @@
+p {
+    background-color: blue;
+    margin-left: 15px;
+    color: white;
+    width: 40ch;
+    float: left;
+}
+
+div {
+    background-color: antiquewhite;
+    overflow: hidden;
+    width: 1400px;
+    margin: auto;
+}
+

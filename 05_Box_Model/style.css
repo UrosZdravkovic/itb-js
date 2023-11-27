@@ -12,3 +12,18 @@ a {
 div {
     margin-top: 50px;
 }
+
+span{
+    margin-top: 50px;
+    border: solid 2px red;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    width: 50%;
+    display: inline-block;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
