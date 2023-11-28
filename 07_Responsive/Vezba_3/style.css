@@ -19,7 +19,7 @@ h2 {
 
 img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -41,11 +41,19 @@ img {
     opacity: 0.3ms;
 }
 
-.row .col-3 {
-    background-color: aquamarine;
+.bi-cont {
+    background-color: aliceblue;
+    height: 325px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
 }
 
-
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 
 .row .col-5 {
