@@ -104,7 +104,7 @@ img {
 .footer {
     text-align: center;
     background-color: beige;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 10px;
@@ -120,6 +120,7 @@ img {
 
     .content1, .content2, .content3{
         max-width: 100%;
+        margin-bottom: 10px;
     }
    
 }
